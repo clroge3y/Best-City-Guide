@@ -4,7 +4,7 @@
 /*This media query is for when we are on a phone or mobile device so what I'm doing here is aligning all columns and flex boxes vertically and centered*/
 
 @media (min-width: 769px) {
-.main-header, .main-nav, .row {
+.main-header, .main-nav, .row, .col {
     display: flex;
 }
 .main-header {
@@ -13,6 +13,7 @@
 }
 .col {
   flex: 1 50%;
+  flex-direction: column;
 }
 
 .row {
@@ -20,6 +21,10 @@
 }
 .secondary {
   order: -1;
+}
+.button {
+  margin-top: auto;
+  align-self: flex-centered;
 }
 }
 
