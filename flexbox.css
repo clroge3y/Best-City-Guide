@@ -1,0 +1,19 @@
+/* =================================
+  Media Queries
+==================================== */
+/*This media query is for when we are on a phone or mobile device so what I'm doing here is aligning all columns and flex boxes vertically and centered*/
+
+@media (min-width: 769px) {
+.main-header, .main-nav {
+    display: flex;
+}
+.main-header {
+    flex-direction:column;
+    align-items:center;
+}
+
+@media (min-width: 1025px) {
+.main-header {
+    flex-direction:row;
+    justify-content: space-between; /*aligned two flex boxes to left and right side of browser at 1025px*/
+}
