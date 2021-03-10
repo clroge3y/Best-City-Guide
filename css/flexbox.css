@@ -11,6 +11,9 @@
     flex-direction:column;
     align-items:center;
 }
+.col {
+  flex: 1;
+}
 
 @media (min-width: 1025px) {
 .main-header {
